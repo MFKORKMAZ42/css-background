@@ -1,0 +1,45 @@
+body{
+    font: 14px courier;
+    background: #fff;
+    background-image: url(krv.jpg);
+    color: #000;
+    margin: 0;
+    padding: 10px;
+}
+
+p{
+    border: 1px solid;
+    background-color: #ccc;
+    background-image: url(pikapi.png);
+    background-size: 50px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    text-align: center;
+}
+
+code{
+    background: white;
+    padding: 0 15px 2px;
+}
+
+
+#p1{
+    background-repeat:repeat;
+}
+#p2{
+    background-repeat: no-repeat;
+}
+#p3{
+    background-repeat: repeat-x;
+}
+#p4{
+    background-repeat: repeat-y;
+}
+#p5{
+    background-repeat: space;
+}
+#p6{
+    background-repeat: round;
+}
